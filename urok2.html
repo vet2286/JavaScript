@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+
+
+<script>
+
+
+// Задание 1
+
+// В переменную А прибавляется 1, это записывается в переменную С.
+// В переменную Д записывается значение Б иприбавляется 1.
+// Далее к переменной А прибавляется 1 и прибавляется 2 в итоге переманная А теперь равна 3 а переменная С равняется пяти.
+// К переменной Б прибавляется 2 это равно переменной Д, далее к Б прибавляется один.
+// В итоге получается что А и Б будут равны 3.
+
+
+  
+
+function task2 () {
+
+var a = 2
+var x = 1 + (a *= 2)
+console.log(x)
+
+}
+
+function task3 () {
+
+  var a = +prompt ('Введите числовое значение для А')
+  var b = +prompt ('Введите числовое значение для B')
+  
+  if (a >= 0 && b >= 0) {
+    console.log(a - b)
+  } else if (a < 0 && b < 0) {
+    console.log(a * b)
+  } else{
+    console.log(a + b)
+   }                   
+
+}
+
+
+
+function task4 () {
+  var a = +prompt ('Введите значение от 1 до 15')
+    switch (a) {
+      case 0:
+       console.log("0")
+      case 1:
+        console.log("1")
+      case 2:
+        console.log("2")
+      case 3:
+        console.log("3")
+      case 4:
+        console.log("4")
+      case 5:
+        console.log("5")
+      case 6:
+        console.log("6")
+      case 7:
+        console.log("7")
+      case 8:
+        console.log("8")
+      case 9:
+        console.log("9")
+      case 10:
+        console.log("10")
+      case 11:
+        console.log("11")
+      case 12:
+        console.log("12")
+      case 13:
+        console.log("13")
+      case 14:
+        console.log("14")
+      case 15:
+        console.log("15")      
+        }
+}
+
+
+
+  var a = 5
+  var b = 7
+                
+ function task5_1(a, b) {
+ 
+    return a + b;
+  }
+                
+ function task5_2(a, b) {
+     return a - b;
+  }
+                
+   function task5_3(a, b) {
+     return a / b;
+  }
+                
+    function otask5_4(a, b) {
+    return a + b;
+  } 
+
+
+
+
+
+function task7 () {
+
+  console.log('null - означает что значение неизвестно, 0 - это число, null может быть >= нулю.')
+
+}
+
+
+
+</script>
+
+</body>
+</html>
